@@ -5,7 +5,7 @@ import pic3 from '/src/assets/assets/images/image-gaming-growth.jpg'
 function Bottom() {
   return (
     <div  className='w-full flex justify-center md:justify-normal lg:justify-center h-full'>
-        <div className='lg:w-[1090px] xl:w-[1290px] absolute top-[1750px] sm:top-[1650px] md:top-[720px] xl:top-[800px] pt-[100px]  px-[30px] flex flex-col xl:px-[30px] lg:px-[160px] xl:flex-row mx-auto'>
+        <div className='lg:w-[1090px] xl:w-[1290px] absolute top-[1750px] sm:top-[1650px] md:top-[720px] xl:top-[960px] pt-[100px] max-h-[100%]  px-[30px] flex flex-col xl:px-[30px] lg:px-[160px] xl:flex-row mx-auto'>
          <div className='flex mt-[30px] max-w-[600px]'>
             <img src={pic1} className='max-w-[150px] max-h-[200px]'/>
             <div className='p-10'>

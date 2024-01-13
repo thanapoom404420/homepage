@@ -20,7 +20,7 @@ const Nav = () => {
             <li className='px-6 text-blue-950  text-lg font-semibold duration-300 cursor-pointer hover:scale-110 hover:font-semibold'>Categories</li>
          </ul>
          <div onClick={handleNav} className='flex cursor-pointer md:hidden'>
-          {nav ? <AiOutlineMenu size={20}/> :   <AiOutlineClose size={20}/>}
+          {nav ? <AiOutlineClose size={20}/> : <AiOutlineMenu size={20}/>}
          </div>
         </div>
         <ul className={nav ? 'flex w-full text-center h-screen absolute top-[200px] bg-[#fff4e6] z-10 flex-col md:hidden duration-300 left-0' : 'absolute left-[-100%]'}>
